@@ -1,6 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
+
 /*
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
@@ -3314,3 +3315,43 @@ input, select, textarea {
 			}
 
 	}
+
+	table{
+		margin: 60px auto;
+		border: 1px solid black;
+		border-collapse: collapse;
+		width: 1060px;
+		height: 800px;
+		table-layout: fixed;
+	}
+	table td, th {
+		border: 1px solid black;
+		font-size: 20px;
+		font-weight: 510;
+	}
+	table th {
+		height: 40px;
+	}
+	table td {
+		vertical-align: top;
+		padding-left: 10px;
+		padding-top: 10px;
+	}
+	.otherMonth {
+		color: darkgrey;
+	}
+	.sat {
+		color:royalblue;
+	}
+	.sun {
+		color:red;
+	}
+	table td:hover {
+		background-color: #d382c4;
+	}
+	table > caption {
+		font-size: 30px;
+		font-weight: 620;
+	}
+  
+	
