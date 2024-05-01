@@ -8,6 +8,13 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+@font-face {
+    font-family: 'KCC-Hanbit';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -30,6 +37,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
+
+
+
 body {
 	line-height: 1;
 }
@@ -50,6 +61,9 @@ blockquote, q {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+	font-size: 16px; /* 원하는 크기로 조정하세요 */
+	
+	
 }
 
 body {
@@ -100,7 +114,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #888;
-		font-family: "Lato", sans-serif;
+		font-family: "KCC-Hanbit", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -2447,6 +2461,8 @@ input, select, textarea {
 	table {
 		margin: 0 0 2.25em 0;
 		width: 100%;
+		
+		
 	}
 
 		table tbody tr {
@@ -2461,11 +2477,12 @@ input, select, textarea {
 
 		table td {
 			padding: 0.75em 0.75em;
+			font-size: 15px;
 		}
 
 		table th {
 			color: #777;
-			font-size: 0.9em;
+			font-size: 15px;
 			font-weight: 700;
 			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
@@ -3353,5 +3370,7 @@ input, select, textarea {
 		font-size: 30px;
 		font-weight: 620;
 	}
+
+	
   
 	
